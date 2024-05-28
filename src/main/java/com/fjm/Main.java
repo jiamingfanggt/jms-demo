@@ -3,7 +3,7 @@ package com.fjm;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
- * 启动类
+ * 启动类111222
  */
 @SpringBootApplication
 public class Main {
