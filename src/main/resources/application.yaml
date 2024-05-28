@@ -1,0 +1,12 @@
+spring:
+  activemq:
+    broker-url: tcp://127.0.0.1:61616
+    # 是否是内存模式
+    in-memory: false
+    pool:
+      # 是否用 PooledConnectionFactory 代替普通的 ConnectionFactory
+      enabled: true
+      # 最大连接数
+      max-connections: 10
+      # 连接空闲超时
+      idle-timeout: 30000
